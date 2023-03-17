@@ -11,10 +11,6 @@
   <a href="#iphone-iniciando-mobile">React Native</a>
 </p>
 
-<h1 align="center">
-    <img alt="GoBarber" src="" />
-    <img alt="GoBarber Mobile" src="" />
-</h1>
 
 ## :page_with_curl: Sobre
 Este repositório inclui uma API REST em Node.js como back-end, um aplicativo em ReactJS como front-end e um aplicativo móvel em React Native, todos usando TypeScript.
@@ -38,26 +34,12 @@ O provedor de serviços pode acessar todos os seus horários por meio de uma int
 ## :rocket: Começando
 ``` bash
   # Clonar o projeto:
-  $ git clone xxxxx
+  $ git clone https://github.com/vnmeirelles/GoBarber-Frontend.git
 
   # Entrar no diretório:
   $ cd gobarber
 ```
 
-## :gear: Iniciando back-end
-```bash
-  # Entrar no diretório do back-end:
-  $ cd backend
-
-  # Instalar as dependências:
-  $ yarn
-
-  # Rodar as migrations:
-  $ yarn typeorm migration:run
-
-  # Rodar a aplicação:
-  $ yarn dev:server
-```
 
 ## :computer: Iniciando front-end
 ```bash
@@ -69,18 +51,6 @@ O provedor de serviços pode acessar todos os seus horários por meio de uma int
 
   # Rodar a aplicação:
   $ yarn start
-```
-
-## :iphone: Iniciando mobile
-```bash
-  # Entrar no diretório do mobile:
-  $ cd mobile
-
-  # Instalar as dependências:
-  $ yarn
-
-  # Rodar a aplicação:
-  $ yarn ios ou yarn android 
 ```
 
 Feito por Vinicius Meirelles 👋🏻 [Get in touch!](https://github.com/vnmeirelles)
